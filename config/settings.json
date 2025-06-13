@@ -1,0 +1,8 @@
+{
+  "misp_url": "YOU_MISP_SERVER_IP",
+  "misp_key": "YOUR_MISP_API_KEY",
+  "misp_verifycert": false,
+  "virustotal_key": "VIRUSTOTAL_API_KEY",
+  "abuseipdb_key": "ABUSEIPD_API_KEY",
+  "event_limit": 20
+}
