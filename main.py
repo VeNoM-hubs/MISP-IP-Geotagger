@@ -61,7 +61,7 @@ def _ensure_tag_exists(tag: str) -> None:
         except Exception as exc:
             print(f"[!] Could not create tag '{tag}': {exc}")
 
-
+#trial
 def _location_subset(tags: Set[str]) -> Set[str]:
     """Return only tags that start with country: or city: ."""
     return {t for t in tags if t.startswith(("country:", "city:"))}
